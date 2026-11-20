@@ -1,0 +1,11 @@
+# Netlify cannot run Flask, so it forwards every request to the Vercel backend.
+# 1) Deploy login-lab to Vercel first.  2) Replace the URL below with yours.
+
+[build]
+  publish = "public"
+
+[[redirects]]
+  from = "/*"
+  to = "https://login-9y10wvdzb-login-app.vercel.app/dashboard/:splat"
+  status = 200
+  force = true
