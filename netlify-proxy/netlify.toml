@@ -6,6 +6,6 @@
 
 [[redirects]]
   from = "/*"
-  to = "https://login-9y10wvdzb-login-app.vercel.app/dashboard/:splat"
+  to = "https://login-9y10wvdzb-login-app.vercel.app/:splat"
   status = 200
   force = true
